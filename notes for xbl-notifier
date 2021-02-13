@@ -1,0 +1,9 @@
+'presence_text'
+use python3 -i myfile.py to run an interactive shell (you can play with variables after it executes the code
+
+To setup:
+1.) register new azure app (with microsoft acc linked to xbl acc)
+2.) generate client secret
+3.) run xbox-authenticate --client-id <app client ID> --client-secret <client secret (that was generated)>
+4.) check for tokens.json file
+
