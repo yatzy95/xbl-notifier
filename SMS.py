@@ -8,7 +8,7 @@ carriers = {
 
 def send(message):
     # Replace the number with your own, or consider using an argument\dict for multiple people.
-	to_number = '***REMOVED***{}'.format(carriers['att'])
+	to_number = 'PHONE NUMBER{}'.format(carriers['CARRIER'])
 	auth = ('***REMOVED***', '***REMOVED***')
 
 	# Establish a secure session with gmail's outgoing SMTP server using your gmail account
